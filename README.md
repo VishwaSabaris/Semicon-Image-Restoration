@@ -520,12 +520,12 @@ The checkpoint must be loaded using the architecture implemented in `src/05_mode
 
 ## Single Image Inference
 
-A demonstration script is provided: `demo.py`. It accepts a single `.npy` image and generates a restored image.
+A demonstration script is provided: `run.py`. It accepts a single `.npy` image and generates a restored image.
 
 ### Example
 
 ```bash
-python demo.py "C:\path\to\000040.npy"
+python run.py "C:\path\to\000040.npy"
 ```
 
 ### Processing Pipeline
